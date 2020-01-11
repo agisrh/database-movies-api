@@ -25,11 +25,13 @@ example : http://localhost:3000/api/movies?key_token=your_token_key" or https://
 
 ## Important for you to know
 data response table :  
-| field      |     type     |                                                      description |
+  
+  
+| field | type | description |
 |------------|:------------:|-----------------------------------------------------------------:|
-| status     |    boolean   | true of false, explain whether the request was successful or not |
-| dataLength |    number    |                                            amount of data movies |
-| data       | array object |                                              list of data movies |
-| videoEmbed | string       | this is can you use to embed in iframe tag or video tag          |  
+| status | boolean | true of false, explain whether the request was successful or not |
+| dataLength | number | amount of data movies |
+| data | array object | list of data movies |
+| videoEmbed | string | this is can you use to embed in iframe tag or video tag |
 
 
