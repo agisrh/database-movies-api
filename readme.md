@@ -1,9 +1,10 @@
 # database movies api
 ###  documentation
 
-get your key token from here : https://ducky-database-movies-api.herokuapp.com/auth  
+sign up and get your key token from here : https://ducky-database-movies-api.herokuapp.com/auth  
 
 base url : https://ducky-database-movies-api.herokuapp.com/  
+##### /api/movies
 
 endpoint : /api/movies  
 
