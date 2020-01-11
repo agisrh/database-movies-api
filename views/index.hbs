@@ -1,0 +1,75 @@
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <title>{{title}}</title>
+      <!--Import materialize.css-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+      <style>
+        input {
+          color:white
+        }
+        /* label color */
+        .input-field label {
+          color: #fff !important  ;
+        }
+        /* label focus color */
+        .input-field input[type=text]:focus + label {
+          color: #fff !important  ;
+        }
+        /* label underline focus color */
+        .input-field input[type=text]:focus {
+          border-bottom: 1px solid #fff !important  ;
+          box-shadow: 0 1px 0 0 #fff !important ;
+        }
+        /* valid color */
+        .input-field input[type=text].valid {
+          border-bottom: 1px solid #fff !important  ;
+          box-shadow: 0 1px 0 0 #fff !important ;
+        }
+        /* invalid color */
+        .input-field input[type=text].invalid {
+          border-bottom: 1px solid #fff !important  ;
+          box-shadow: 0 1px 0 0 #fff !important ;
+        }
+        /* icon prefix focus color */
+        .input-field .prefix.active {
+          color: #fff !important  ;
+        }
+      </style>
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body class="blue-grey darken-4">
+    <div class="container" style="margin-top: 150px;">
+      <div class="row">
+        <form class="col s12" action="auth" method="post">
+          <div class="row">
+            <div class="input-field col s12">
+              <i class="material-icons prefix">account_circle</i>
+              <input id="name" type="text" min="6" max="16" class="validate" required name="name" autocomplete="off">
+              <label for="name">Name</label>
+            </div>
+            <div class="input-field col s12">
+              <i class="material-icons prefix">email</i>
+              <input id="email" type="email" class="validate" name="email" required autocomplete="off">
+              <label for="email">Name</label>
+            </div>
+
+            <div class="col s12">
+              <button class="white black-text btn waves-effect waves-grey" type="submit" name="action">Submit
+              <i class="material-icons right">send</i>
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Compiled and minified JavaScript -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    </body>
+  </html>
+        
